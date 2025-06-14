@@ -10,7 +10,6 @@ import argparse
 from sensor_msgs.msg import Image, PointCloud2, CameraInfo
 from cv_bridge import CvBridge, CvBridgeError
 from termcolor import cprint
-import Helpers.image_processing as image_processing
 from Helpers.sensor_fusion import imu_processor
 from Helpers.data_calculation import DataCollection
 import threading
